@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    padding: 0 4rem;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    padding: 30px 3rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+header .all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .right a{
+    color: #fff;
+    margin-left: 20px;
+}
+
+header img{
+    width: 70%;
+}
+
+header .right i{
+    color: #fff;
+    margin-left: 20px;
+}
+
+#First{
+    background: url(https://themegoods-cdn-pzbycso8wng.stackpathdns.com/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-225630.jpeg);
+    text-align: center;
+    background-position: center;
+    background-size: cover; 
+    padding: 18rem 0;
+}
+#First h1{
+    font-size: 60px;
+    color: #fff;
+}
+#First p{
+    color: #fff;
+    font-size: 16px;
+    margin: 15px 0 30px 0;
+    
+}
+.First-box{
+    border: 1px solid #fff;
+    border-radius: 6px;
+    padding: 10px 70px ;
+    margin: 0 10px;
+}
+#first-btn{
+    color: #fff;
+    padding: 10px 70px;
+    border: 1px solid #FF4A52;
+    border-radius: 6px;
+    background-color: #FF4A52;
+}
+
+
+#Destinations{
+    padding: 5rem 0;
+}
+#Destinations .all{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.head{
+    text-align: center;
+    justify-content: center;
+    
+}
+.head h1{
+    font-size: 50px;
+}
+.head p{
+    color: #8D9199;
+    font-size:20px ;
+    padding: 5px 0 35px 0;
+
+}
+
+#Destinations .box{
+    padding: 15px;
+    width: 32%;
+    border-radius: 7px;
+    
+} 
+.box:hover img{
+    vertical-align: bottom;
+}
+#Destinations img{
+    width: 100%;
+   transition: .8s;
+}
+.bottom{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Value{
+    padding: 5rem 0;
+}
+#Value .all{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+#Value .box{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px;
+    border: 1px solid #8D9199;
+    border-radius: 3px;  
+    padding: 0 0 25px 0;    
+} 
+#Value img{
+    width: 100%;
+}
+.bottom h2 {
+
+    display: flex;
+    padding: 5px 15px 5px 15px;
+}
+.bottom p {
+    color: #8D9199;
+    display: flex;
+    padding: 0px 15px 15px 15px;
+    
+}
+
+#Choose{
+    padding: 5rem 0;
+}
+#Choose .all{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+#Choose .box{
+    padding: 25px;
+    width: 32%;
+    margin: 45px;
+      
+} 
+#Choose img{
+    width: 100%;
+}
+
+#photo {
+    background: url(https://www.teahub.io/photos/full/281-2814807_beautiful-autumn-nature-full-screen-wallpaper-hd.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 12rem 0;
+}
+
+
+#Article .all{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0px 40px 0px;
+}
+#Article .box{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px ;
+    border: 1px solid #ededee;
+    border-radius: 3px;  
+    padding: 0 0 25px 0;    
+} 
+#Article img{
+    width: 100%;
+}
+#Article .box a{
+    color: black;
+}
